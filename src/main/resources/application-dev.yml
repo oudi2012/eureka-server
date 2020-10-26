@@ -1,9 +1,9 @@
 server:
-  port: 7001
+  port: 8080
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: 192.168.41.126
   client:
     #是否要注册到eureka
     registerWithEureka: false
